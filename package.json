@@ -1,22 +1,24 @@
 {
-    "publisher": "edwinhuish",
-    "name": "better-comments-next",
-    "displayName": "Better Comments Next",
+    "publisher": "glektarssza",
+    "name": "glek-better-comments-next",
+    "displayName": "G'lek's Better Comments Next",
     "version": "3.4.7",
     "description": "Improve your code commenting by annotating with alert, informational, TODOs, and more!",
     "author": {
-        "name": "Edwin Xu"
+        "name": "G'lek Tarssza",
+        "email": "glek@glektarssza.com",
+        "url": "https://glektarssza.com"
     },
     "sponsor": {
-        "url": "https://github.com/sponsors/edwinhuish"
+        "url": "https://github.com/sponsors/glektarssza"
     },
     "license": "MIT",
-    "homepage": "https://github.com/edwinhuish/better-comments-next/blob/master/README.md",
+    "homepage": "https://github.com/glektarssza/better-comments-next",
     "repository": {
         "type": "git",
-        "url": "https://github.com/edwinhuish/better-comments-next"
+        "url": "https://github.com/glektarssza/better-comments-next"
     },
-    "bugs": "https://github.com/edwinhuish/better-comments-next/issues",
+    "bugs": "https://github.com/glektarssza/better-comments-next/issues",
     "keywords": [
         "highlight",
         "color",
@@ -49,7 +51,7 @@
     },
     "contributes": {
         "configuration": {
-            "title": "Better Comments Next",
+            "title": "G'lek's Better Comments Next",
             "properties": {
                 "better-comments.highlightPlainText": {
                     "type": "boolean",
