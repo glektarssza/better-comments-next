@@ -5,7 +5,7 @@
  * ? question
  * TODO: Some TODO
  *
- * Behavioral Model of a  2 to 1 MUX (16-bit inputs) 
+ * Behavioral Model of a  2 to 1 MUX (16-bit inputs)
  **********************************************************************/
 
 // ********************************************************
@@ -21,9 +21,9 @@
      input  [15:0] A, B;
      input  sel;
      reg    [15:0] Y;
-     always @(A or B or sel) 
-       if (sel == 1'b0) 
+     always @(A or B or sel)
+       if (sel == 1'b0)
          Y = A;
-       else 
+       else
          Y = B;
   endmodule

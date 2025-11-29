@@ -3,9 +3,9 @@ variable "ami" {
   description = "the AMI to use"
 }
 
-/** 
+/**
   * A multi
-  * ? line comment 
+  * ? line comment
   */
 resource "aws_instance" "web" {
   ami               = "${var.ami}"

@@ -5,7 +5,7 @@ Shader "Simple colored lighting"
     Properties {
         _Color ("Main Color", Color) = (1,.5,.5,1)
     }
-    
+
     // define one subshader
     SubShader
     {

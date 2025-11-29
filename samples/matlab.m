@@ -12,7 +12,7 @@ function output = my_fun(input)
 
 
     for index = 1 : n
-        
-    end    
+
+    end
 
 end

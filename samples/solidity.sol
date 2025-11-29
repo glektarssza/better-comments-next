@@ -8,7 +8,7 @@ contract HelloWorld {
 
 // ! hello world
 
-/* 
+/*
   ! solidity
   */
 

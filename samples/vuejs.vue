@@ -41,9 +41,9 @@ Vue.component("select2", {
    * This is a block comment
    * ! some stuff
    * TODO: a message
-   * 
+   *
    * TO-DO: This should be highlighted
-   */  
+   */
   destroyed: function() {
     $(this.$el)
       .off()

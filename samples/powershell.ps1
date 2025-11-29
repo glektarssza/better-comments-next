@@ -1,8 +1,8 @@
 # Convert any text file to ASCII
 
-param( [string] $infile = $(throw "Please specify a filename.") ) 
+param( [string] $infile = $(throw "Please specify a filename.") )
 
-$outfile = "$infile.ascii" 
+$outfile = "$infile.ascii"
 
 get-content -path $infile | out-file $outfile -encoding ascii
 
@@ -12,7 +12,7 @@ get-content -path $infile | out-file $outfile -encoding ascii
 
 # * highlighted comment
 
-<# 
+<#
 ! hello world
 * hello world
 ? hello world

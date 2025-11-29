@@ -1,6 +1,6 @@
 <cfoutput>
-    <!--- 
-      ! ColdFusion Wrote me 
+    <!---
+      ! ColdFusion Wrote me
     --->
     No, it didn't
 </cfoutput>

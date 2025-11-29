@@ -23,7 +23,7 @@
 
 ### Fix
 
-* Skip decorate line comment like inside the block comment. 
+* Skip decorate line comment like inside the block comment.
 * Fix python decoration. [#4](https://github.com/edwinhuish/better-comments-next/issues/4)
 * Wrong matching for block comments. [#9](https://github.com/edwinhuish/better-comments-next/issues/9)
 
@@ -64,7 +64,7 @@
 * Language support is now driven from configuration files. This means that if you have an extension which informs VSCode about a language, Better Comments will know about it too!
 * Problems are likely to arise with this change, but it allows a lot more users to benefit from Better Comments without needing an explicit update for the extension adding support.
 
-__With version 3.0.0 comes the addition of the support button on the Github page for [Better Comments](https://github.com/sponsors/aaron-bond)__  
+__With version 3.0.0 comes the addition of the support button on the Github page for [Better Comments](https://github.com/sponsors/aaron-bond)__
 __If you feel my work on this extension has earned me a coffee, that's the place to do it!__
 
 _**Thanks!**_
@@ -195,7 +195,7 @@ _**Thanks!**_
 
 * Adding new property for tags: __backgroundColor__ ([3e7a188](https://github.com/aaron-bond/better-comments/commit/3e7a188)), closes [#66](https://github.com/aaron-bond/better-comments/issues/66)
   * default: `transparent`
-* Adding support for: PlainText ([27ff774](https://github.com/aaron-bond/better-comments/commit/27ff774)), closes [#39](https://github.com/aaron-bond/better-comments/issues/39)  
+* Adding support for: PlainText ([27ff774](https://github.com/aaron-bond/better-comments/commit/27ff774)), closes [#39](https://github.com/aaron-bond/better-comments/issues/39)
   * PlainText support must be turned on in the settings: `highlightPlainText`
 * Adding support for: Vue.js ([2b14d2e](https://github.com/aaron-bond/better-comments/commit/2b14d2e)), closes [#71](https://github.com/aaron-bond/better-comments/issues/71)
 * Adding support for: nim ([73a55f6](https://github.com/aaron-bond/better-comments/commit/73a55f6)), merges [#68](https://github.com/aaron-bond/better-comments/issues/68)
@@ -211,7 +211,7 @@ _**Thanks!**_
 ### Bug Fixes
 
 * Fixing support for SCSS ([2b3919f](https://github.com/aaron-bond/better-comments/commit/2b3919f)), closes [#60](https://github.com/aaron-bond/better-comments/issues/60)
-* Fixing Python to prevent first line of the file being detected as a comment,  
+* Fixing Python to prevent first line of the file being detected as a comment,
 ([438e0a6](https://github.com/aaron-bond/better-comments/commit/438e0a6)), closes [#61](https://github.com/aaron-bond/better-comments/issues/61)
 
 ## [1.2.2] (2018-04-15)

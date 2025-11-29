@@ -5,10 +5,10 @@ class Example {
       // ? and another
       One can see the use of a semi-colon after each statement
       def x = 5;
-      println('Hello World');  
+      println('Hello World');
    }
 }
 
-/* 
- ! block comments are the same 
+/*
+ ! block comments are the same
 */

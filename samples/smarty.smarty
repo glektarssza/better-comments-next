@@ -1,9 +1,9 @@
 This snippet:
- 
+
 {clear}
- 
+
 will write this to your document:
- 
+
 <div style="clear: both;"/>
 
 {* TODO: this should be done *}

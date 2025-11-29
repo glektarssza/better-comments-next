@@ -70,6 +70,6 @@
 ;; -----------------------------------------------------------
 
 (provide pos pos-x pos-y pos->posn
-         move-pos add-direction-speeds 
+         move-pos add-direction-speeds
          between? inside-circle? inside-rect? inside-triangle?
 direction-from-a-to-b)

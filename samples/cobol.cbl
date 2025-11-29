@@ -3,15 +3,15 @@ IDENTIFICATION DIVISION.
 PROGRAM-ID.  PerformFormat3.
 AUTHOR.  Michael Coughlan.
 * Demonstrates the use of the PERFORM..UNTIL.
-* The PERFORM..UNTIL is most often used to process a 
-* stream of data where the length of the stream can not 
+* The PERFORM..UNTIL is most often used to process a
+* stream of data where the length of the stream can not
 * be determined in advance.
-* Pay particular attention to the way the number stream is 
+* Pay particular attention to the way the number stream is
 * processed in this program.
 * Note how the ON SIZE ERROR can be used to detect when the
 * result of a computation is tot big for the data-item intended
 * to hold it.
-* The INITIALIZE verb sets a data-item to its initial or 
+* The INITIALIZE verb sets a data-item to its initial or
 * starting value.
 *> TODO: Check if this format is correct
 DATA DIVISION.
@@ -55,4 +55,3 @@ GetUserInput.
     DISPLAY "Count so far is - " IterCount
     DISPLAY "Enter number :- " WITH NO ADVANCING
     ACCEPT UserInput.
-
