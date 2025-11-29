@@ -371,9 +371,18 @@
         "watch": "tsup --config=build/tsup.node.js --watch",
         "build-web": "tsup --config=build/tsup.web.js",
         "watch-web": "tsup --config=build/tsup.web.js --watch",
-        "lint": "npm run lint:type && npm run lint:eslint",
+        "lint": "npm run lint:type && npm run lint:eslint && npm run lint:prettier",
         "lint:type": "tsc -p . --noEmit",
-        "lint:eslint": "eslint --cache --max-warnings 0 . --fix"
+        "lint:eslint": "eslint --cache --max-warnings 0 .",
+        "lint:prettier": "prettier --cache --config ./.prettierrc.cjs --ignore-path ./.prettierignore --ignore-path ./.gitignore --check .",
+        "lint:ci": "npm run lint:ci:type && npm run lint:ci:eslint && npm run lint:ci:prettier",
+        "lint:ci:type": "tsc -p . --noEmit",
+        "lint:ci:eslint": "eslint --max-warnings 0 .",
+        "lint:ci:prettier": "prettier --config ./.prettierrc.cjs --ignore-path ./.prettierignore --ignore-path ./.gitignore --check .",
+        "lint:fix": "npm run lint:fix:type && npm run lint:fix:eslint && npm run lint:fix:prettier",
+        "lint:fix:type": "exit 0",
+        "lint:fix:eslint": "eslint --cache --max-warnings 0 --fix .",
+        "lint:fix:prettier": "prettier --cache --config ./.prettierrc.cjs --ignore-path ./.prettierignore --ignore-path ./.gitignore --write ."
     },
     "dependencies": {
         "json5": "^2.2.3"
