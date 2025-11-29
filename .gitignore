@@ -51,6 +51,4 @@ node_modules/
 
 # Artifacts #
 ## Vite ##
-coverage/
 dist/
-__screenshots__/
