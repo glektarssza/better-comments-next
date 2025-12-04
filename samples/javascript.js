@@ -19,7 +19,7 @@ const myVar = 123;
  * * Highlights
  */
 function myFunction(myParam) {
-  return myParam;
+    return myParam;
 }
 
 // ! Need more content here

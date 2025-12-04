@@ -5,14 +5,14 @@ const escapeCache = new Map<string, string>();
  * @returns {string} The escaped string
  */
 export function escape(input: string): string {
-  let escaped = escapeCache.get(input);
+    let escaped = escapeCache.get(input);
 
-  if (!escaped) {
-    escaped = input.replace(/[.*+?^${}()|[\]\\/]/g, '\\$&'); // $& means the whole matched string
-    escapeCache.set(input, escaped);
-  }
+    if (!escaped) {
+        escaped = input.replace(/[.*+?^${}()|[\]\\/]/g, '\\$&'); // $& means the whole matched string
+        escapeCache.set(input, escaped);
+    }
 
-  return escaped;
+    return escaped;
 }
 
 export const SP = '[ \\t]' as const;
